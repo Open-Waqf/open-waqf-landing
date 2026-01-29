@@ -10,7 +10,7 @@
     <meta name="description"
           content="Open Waqf builds privacy-focused, ad-free, and open-source software for the Muslim community. Digital Sadaqah Jariyah.">
     <meta name="keywords"
-          content="Open Waqf, Islamic Software, Open Source, Sadaqah Jariyah, Muslim Apps, Privacy, No Ads, Wird, Digital Waqf, وقف مفتوح">
+          content="Open Waqf, Islamic Software, Open Source, Sadaqah Jariyah, Muslim Apps, Privacy, No Ads, Wird, Tahara, Digital Waqf, وقف مفتوح">
     <meta name="author" content="Open Waqf">
 
     <meta property="og:image" content="https://open-waqf.org/img/social-preview.png">
@@ -46,95 +46,138 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
+
+        .text-gradient {
+            background: linear-gradient(to r, #34d399, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-emerald-500 selection:text-white flex flex-col min-h-screen">
 
-<header class="flex-grow flex flex-col items-center justify-center text-center px-4 pt-20 pb-12">
-    <div class="mb-6 p-4 rounded-full bg-emerald-500/10 border border-emerald-500/20 animate-pulse">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-emerald-400" fill="none" viewBox="0 0 24 24"
+<header class="flex-grow flex flex-col items-center justify-center text-center px-4 pt-24 pb-16">
+    <div class="mb-8 p-5 rounded-3xl bg-emerald-500/10 border border-emerald-500/20 animate-pulse">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-emerald-400" fill="none" viewBox="0 0 24 24"
              stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                  d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-.778.099-1.533.284-2.253"/>
         </svg>
     </div>
-    <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400">
+    <h1 class="text-6xl md:text-8xl font-black tracking-tighter mb-6 text-gradient">
         Open Waqf
     </h1>
-    <p class="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-        Building privacy-focused, open-source Islamic software.<br>
-        <span class="text-emerald-400">No Ads. No Tracking. No Cost.</span>
+    <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light">
+        Building <span class="text-white font-medium">Digital Waqf</span>.<br>
+        Privacy-first, ad-free Islamic apps for the global Ummah.
     </p>
 
-    <div class="mt-8 flex gap-4">
+    <div class="mt-10 flex flex-wrap justify-center gap-4">
         <a href="https://github.com/open-waqf" target="_blank"
-           class="px-6 py-3 rounded-full bg-slate-800 hover:bg-slate-700 text-white font-medium transition-all border border-slate-700 flex items-center gap-2">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+           class="px-8 py-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-all border border-slate-700 flex items-center gap-3">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
             </svg>
-            GitHub Profile
+            Contribute on GitHub
         </a>
     </div>
 </header>
 
-<main class="container mx-auto px-4 pb-24">
-    <h2 class="text-2xl font-bold text-center mb-10 text-slate-500 uppercase tracking-widest text-sm">Our Projects</h2>
+<main class="container mx-auto px-4 pb-32">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-
-        <div class="glass rounded-2xl p-6 relative overflow-hidden group hover:border-emerald-500/50 transition-all">
-            <div class="absolute top-0 right-0 bg-emerald-500 text-black text-[10px] font-bold px-3 py-1 rounded-bl-lg z-10">
+        <div class="glass rounded-3xl p-8 relative overflow-hidden group hover:border-emerald-500/50 transition-all">
+            <div class="absolute top-0 right-0 bg-emerald-500 text-black text-xs font-bold px-4 py-1 rounded-bl-xl z-10">
                 LIVE
             </div>
-
-            <div class="flex items-start justify-between mb-4">
-                <img src="https://wird.open-waqf.org/img/web-app-manifest-192x192.png"
-                     alt="Wird Icon"
-                     class="h-16 w-16 rounded-xl shadow-lg border border-emerald-500/20 group-hover:scale-105 transition-transform duration-300">
+            <div class="flex items-center gap-5 mb-6">
+                <img src="https://wird.open-waqf.org/img/web-app-manifest-192x192.png" alt="Wird Icon"
+                     class="h-20 w-20 rounded-2xl shadow-2xl border border-emerald-500/20 group-hover:scale-110 transition-transform duration-500">
+                <div>
+                    <h3 class="text-2xl font-bold text-slate-100">Wird <span class="text-emerald-500 font-arabic ml-1">وِرد</span>
+                    </h3>
+                    <p class="text-emerald-400 text-sm font-medium">Adhkar & Dua</p>
+                </div>
             </div>
-
-            <h3 class="text-xl font-bold mb-2 flex items-center gap-2 text-slate-100">
-                Wird <span class="text-slate-500 text-sm font-normal">| وِرد</span>
-            </h3>
-
-            <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                A privacy-first PWA for daily Adhkar and Dua. Offline capable, OLED dark mode, and multi-language
-                support.
+            <p class="text-slate-400 leading-relaxed mb-8">
+                Privacy-first remembrance app. Offline capable, OLED dark mode, and multi-language support. No tracking,
+                just worship.
             </p>
-
-            <div class="flex gap-3 mt-auto">
+            <div class="flex gap-4">
                 <a href="https://wird.open-waqf.org" target="_blank"
-                   class="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 shadow-lg shadow-emerald-900/20">
-                    Launch App 🚀
-                </a>
+                   class="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-6 rounded-xl transition-all text-center">Launch
+                    App</a>
                 <a href="https://github.com/open-waqf/wird" target="_blank"
-                   class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 hover:text-white transition-colors"
-                   aria-label="View Source Code">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                   class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
                 </a>
             </div>
         </div>
 
-        <div class="glass rounded-2xl p-6 opacity-60 border-dashed border-slate-700">
-            <div class="h-12 w-12 bg-slate-800 rounded-xl flex items-center justify-center mb-4">
-                <span class="text-2xl text-slate-600">🚀</span>
+        <div class="glass rounded-3xl p-8 relative overflow-hidden group hover:border-[#f7efe4]/50 transition-all border-dashed">
+            <div class="absolute top-0 right-0 bg-[#f7efe4] text-[#064e3b] text-xs font-bold px-4 py-1 rounded-bl-xl z-10">
+                BETA
             </div>
-            <h3 class="text-xl font-bold mb-2 text-slate-500">Coming Soon</h3>
-            <p class="text-slate-500 text-sm mb-4">
-                More tools for the Ummah are being built.
-            </p>
-        </div>
 
+            <div class="flex items-center gap-5 mb-6">
+                <img src="https://tahara.open-waqf.org/img/web-app-manifest-192x192.png"
+                     alt="Taharah Icon"
+                     class="h-20 w-20 rounded-2xl shadow-2xl border border-[#f7efe4]/20 group-hover:scale-110 transition-transform duration-500 bg-[#f7efe4] p-1">
+                <div>
+                    <h3 class="text-2xl font-bold text-slate-100">Taharah <span
+                            class="text-[#f7efe4] font-arabic ml-1">طهارة</span></h3>
+                    <p class="text-[#f7efe4] text-sm font-medium opacity-80">Purity Tracker</p>
+                </div>
+            </div>
+
+            <p class="text-slate-400 leading-relaxed mb-8">
+                Private, offline cycle tracking for the Muslimah. Designed with Fiqh-first logic to manage Salah and
+                Fasting obligations with complete privacy.
+            </p>
+
+            <div class="flex gap-4">
+                <a href="https://tahara.open-waqf.org" target="_blank"
+                   class="flex-1 bg-[#f7efe4] hover:brightness-90 text-[#064e3b] font-bold py-3 px-6 rounded-xl transition-all text-center">
+                    Launch App
+                </a>
+                <a href="https://github.com/open-waqf/tahara" target="_blank"
+                   class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-24 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center border-t border-slate-800 pt-16">
+        <div>
+            <h4 class="text-white font-bold mb-2">Private</h4>
+            <p class="text-slate-500 text-sm">Your data stays on your device. Always.</p>
+        </div>
+        <div>
+            <h4 class="text-white font-bold mb-2">Ad-Free</h4>
+            <p class="text-slate-500 text-sm">No distractions. No "premium" paywalls.</p>
+        </div>
+        <div>
+            <h4 class="text-white font-bold mb-2">Open</h4>
+            <p class="text-slate-500 text-sm">Auditable code. Community owned.</p>
+        </div>
     </div>
 </main>
 
-<footer class="border-t border-slate-800 py-8 text-center text-slate-600 text-sm">
+<footer class="border-t border-slate-800 py-12 text-center text-slate-600 text-sm">
+    <div class="flex justify-center gap-6 mb-4">
+        <a href="https://github.com/open-waqf" class="hover:text-emerald-400 transition-colors">GitHub</a>
+        <a href="mailto:wird-app@proton.me" class="hover:text-emerald-400 transition-colors">Contact</a>
+    </div>
     <p>&copy;
         <script>document.write(new Date().getFullYear())</script>
         Open Waqf. Released under MIT License.
     </p>
+    <p class="mt-2 opacity-50">Built as a Digital Waqf for the Ummah.</p>
 </footer>
 
 </body>
