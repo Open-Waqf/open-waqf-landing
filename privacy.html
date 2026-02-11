@@ -69,39 +69,48 @@
             </h2>
             <p>We do not collect, store, or sell your personal data. We do not use third-party analytics trackers (like
                 Google Analytics) or advertising pixels in our apps.</p>
-            <ul class="list-disc pl-5 mt-3 space-y-2 text-slate-400 bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">
-                <li><strong class="text-emerald-400">Wird:</strong> Dhikr counts and preferences stay on your device.
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+                <li class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">
+                    <strong class="text-emerald-400">Wird:</strong> Dhikr counts and preferences stay on your device.
                 </li>
-                <li><strong class="text-rose-400">Tahara:</strong> Health data is stored locally in your browser.</li>
-                <li><strong class="text-blue-400">Signer:</strong> Documents are processed entirely in browser memory.
+                <li class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">
+                    <strong class="text-rose-400">Tahara:</strong> Health data is stored locally in your browser.
+                </li>
+                <li class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">
+                    <strong class="text-blue-400">Signer:</strong> Documents are processed entirely in browser memory.
+                </li>
+                <li class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">
+                    <strong class="text-emerald-400">Lens:</strong> Scanned documents and OCR text never leave your
+                    physical device.
                 </li>
             </ul>
         </section>
 
         <section>
             <h2 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
-                <span class="text-emerald-500">2.</span> Local Storage
+                <span class="text-emerald-500">2.</span> Local Persistence
             </h2>
-            <p>Your data is stored in your device's <strong>Local Storage</strong> or <strong>IndexedDB</strong>. If you
-                clear your browser cache or uninstall the app, this data may be deleted unless you have manually backed
-                it up using the export features provided within the apps.</p>
+            <p>Your data is stored in your device's <strong>Local Storage</strong>, <strong>IndexedDB</strong>, or
+                <strong>OPFS</strong>. This data is private to the application and is not shared with other websites or
+                apps. If you clear your browser cache or uninstall the app, this data will be deleted unless you use the
+                manual <strong>Backup</strong> features provided.</p>
         </section>
 
         <section>
             <h2 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
                 <span class="text-emerald-500">3.</span> Server Logs
             </h2>
-            <p>Our website is hosted on static hosting providers (GitHub Pages/Vercel). These providers may collect
-                standard anonymous access logs (IP address, User Agent) for security monitoring. Open Waqf does not
-                access or use this data for tracking users.</p>
+            <p>Our apps are hosted as static files. The hosting providers (e.g., GitHub/Cloudflare) may collect
+                anonymous access logs (IP address, Timestamp) for security and anti-DDoS purposes. Open Waqf does not
+                use this data to track or identify individuals.</p>
         </section>
 
         <section>
             <h2 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
-                <span class="text-emerald-500">4.</span> Contact & Audit
+                <span class="text-emerald-500">4.</span> Auditability
             </h2>
-            <p>You can verify our claims by auditing our source code or contacting us directly:</p>
-            <div class="flex gap-4 mt-4">
+            <p>You can verify our privacy claims at any time by auditing our source code or contacting us:</p>
+            <div class="flex flex-wrap gap-4 mt-4">
                 <a href="https://github.com/open-waqf"
                    class="text-white hover:text-emerald-400 font-bold border-b border-emerald-500/30 hover:border-emerald-500 transition-colors">GitHub
                     Repository</a>
@@ -117,6 +126,10 @@
         <a href="index.html" class="text-sm text-slate-500 hover:text-white transition-colors">← Back to Home</a>
     </div>
 </main>
+
+<footer class="py-8 text-center text-slate-600 text-xs uppercase tracking-widest opacity-50">
+    Digital Waqf
+</footer>
 
 </body>
 </html>
